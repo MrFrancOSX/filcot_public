@@ -1,0 +1,39 @@
+$primary: #0076c0; //rgb(63,81,181)
+$dark-primary: #0062a0; //rgb(48,63,159)
+$opaque: rgba(0, 0, 0, 0.5);
+$dark-opaque: rgba(0, 0, 0, 0.75);
+$bold-opaque: rgba(0, 0, 0, 0.89);
+$accent: #f58420; //rgb(68,138,255)
+$soft-white: #ddd;
+$white: #fff;
+$black: #000;
+$alert: red;
+
+//screen - size
+$phone-small: 320px;
+$phone-medium: 360px;
+$iphone-big: 415px;
+$phone-big: 575.98px; //479px
+
+$device-small: 576px;
+$device-big: 767.98px; //767px
+$ipad: 768px;
+$tablet-small: 768.02px;
+$tablet-big: 991.98px;
+
+$medium: 992px;
+$less-normal: 1199.98px;
+$normal: 1200px;
+$large: 1500px;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400&display=swap');
+
+$font-family: 'Poppins', sans-serif;
+$font-family-text: 'Roboto', sans-serif;
+
+//Common colors
+
+$facebook: #4267b2;
+$whatsapp: #009688;
+$instagram: #dc3170;
+$linkedin: #0073b1;
