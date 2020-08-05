@@ -35,6 +35,9 @@
                         <a href="servicios.php">Servicios</a>
                     </li>
                     <li>
+                        <a href="planes.php">Planes</a>
+                    </li>
+                    <li>
                         <a href="contacto.php">Contacto</a>
                     </li>
 

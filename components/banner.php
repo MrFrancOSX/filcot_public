@@ -8,7 +8,7 @@
                     </h3>
 
                     <h2>
-                        Soluciones empresariales en cuarentena
+                        Soluciones empresariales en el 2020
                     </h2>
 
                     <p>

@@ -26,6 +26,9 @@
                         <a class="nav-link" href="servicios.php">Servicios</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="planes.php">Planes</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link focus" href="contacto.php">Contáctanos</a>
                     </li>
                     <li>

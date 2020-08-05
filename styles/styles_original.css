@@ -238,7 +238,7 @@ a span {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../assets/services/banner.jpg"); }
+  background-image: url("../assets/contact/banner.jpg"); }
   @media (min-width: 991.98px) {
     .bannerContact {
       padding: 100px 0px 40px;
@@ -287,6 +287,7 @@ a span {
 
 .bannerServices {
   padding: 100px 0px 40px;
+  background: #0076c0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -339,6 +340,7 @@ a span {
 
 .bannerAbout {
   padding: 100px 0px 40px;
+  background: #0076c0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -391,7 +393,7 @@ a span {
 
 .banner {
   padding: 100px 0px 40px;
-  background-attachment: fixed;
+  background: #0076c0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1046,8 +1048,6 @@ section.serviceDetail {
     @media (min-width: 767.98px) {
       section.serviceDetail .item {
         min-height: 100vh; } }
-    section.serviceDetail .item.color {
-      background: rgba(254, 186, 127, 0.15); }
     section.serviceDetail .item img {
       height: 100vh;
       object-fit: cover; }
@@ -1192,10 +1192,11 @@ footer {
 
 .bannerBlog {
   padding: 80px 0px 40px;
-  background: rgba(0, 0, 0, 0.75);
+  background: #0076c0;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-image: url("../assets/contact/banner.jpg"); }
   .bannerBlog .content-banner {
     padding: 20px 0px 0px;
     text-align: center; }
@@ -1233,83 +1234,6 @@ footer {
         margin-right: 0px; }
       .bannerBlog .content-banner .buttonContainer a button {
         margin-bottom: 20px; }
-
-section.planList {
-  text-align: center;
-  justify-content: center;
-  width: 100%;
-  background: #fff5ec;
-  padding-top: 50px; }
-  section.planList .setColor {
-    padding: 40px 0px 40px 0px;
-    background: #fff5ec; }
-  section.planList .setColorWhite {
-    padding: 40px 0px 40px 0px;
-    background: #fafafa; }
-  section.planList .group {
-    display: flex;
-    width: auto;
-    justify-content: center; }
-    @media (max-width: 576px) {
-      section.planList .group {
-        display: block; } }
-  @media (max-width: 576px) {
-    section.planList h2 {
-      font-size: 28px !important; } }
-  section.planList article.cardPlan {
-    background: #fff;
-    padding: 30px 15px;
-    margin: 0 20px;
-    width: 244px;
-    text-align: center;
-    float: left;
-    -webkit-box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.15) !important;
-    -webkit-transition: all 250ms ease;
-    -moz-transition: all 250ms ease;
-    -o-transition: all 250ms ease;
-    transition: all 250ms ease !important; }
-    section.planList article.cardPlan:hover {
-      -webkit-box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.4);
-      -moz-box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.4);
-      box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.4) !important; }
-    @media (max-width: 576px) {
-      section.planList article.cardPlan {
-        width: 100% !important;
-        margin: 0px 0px 20px 0px; } }
-    section.planList article.cardPlan h1 {
-      text-transform: uppercase;
-      font-weight: 700;
-      font-size: 24px; }
-    section.planList article.cardPlan h2 {
-      font-size: 24px;
-      color: #f58420;
-      margin-bottom: 15px; }
-      @media (max-width: 576px) {
-        section.planList article.cardPlan h2 {
-          font-size: 18px !important; } }
-    section.planList article.cardPlan h3 {
-      font-size: 14px;
-      margin-top: 20px;
-      margin-bottom: 30px; }
-    section.planList article.cardPlan ul {
-      text-align: left;
-      padding: 0px;
-      font-size: 14px;
-      list-style: none;
-      text-align: center; }
-      section.planList article.cardPlan ul li {
-        letter-spacing: 1.5px;
-        margin-bottom: 5px; }
-        section.planList article.cardPlan ul li i.fas {
-          color: #f58420; }
-    section.planList article.cardPlan .btn.btn-primary {
-      width: 100%;
-      margin-top: 20px;
-      position: relative;
-      padding: 7px 12px;
-      font-size: 14px; }
 
 main.blogStyle {
   background: #fafafa; }
@@ -1389,14 +1313,9 @@ section.containerBlogContent {
     color: rgba(0, 0, 0, 0.89); }
     section.containerBlogContent .back a {
       color: #f58420; }
-    section.containerBlogContent .back.bottom {
-      margin-top: 25px; }
   section.containerBlogContent .content {
     background: #fff;
-    padding: 15px 0px; }
-    @media (min-width: 991.98px) {
-      section.containerBlogContent .content {
-        padding: 50px 35px; } }
+    padding: 35px 15px; }
     section.containerBlogContent .content h1 {
       font-size: 24px;
       margin-bottom: 15px; }
@@ -1405,26 +1324,11 @@ section.containerBlogContent {
           font-size: 40px;
           max-width: 80%; } }
     section.containerBlogContent .content img {
-      margin: 20px 0px 30px;
-      width: 100%;
-      height: auto; }
+      margin: 20px 0px 30px; }
       @media (min-width: 991.98px) {
         section.containerBlogContent .content img {
-          width: 90% !important;
-          max-width: 90%;
+          max-width: 80%;
           margin: 20px 0px 30px; } }
-    section.containerBlogContent .content .bannerSpecial {
-      width: 100%; }
-      section.containerBlogContent .content .bannerSpecial img {
-        width: 100%;
-        height: 175px;
-        object-fit: cover;
-        margin-top: 0px; }
-        @media (min-width: 991.98px) {
-          section.containerBlogContent .content .bannerSpecial img {
-            height: auto;
-            max-width: 800px !important;
-            max-height: 530px; } }
     section.containerBlogContent .content p {
       font-size: 16px;
       font-weight: 400; }
